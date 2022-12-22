@@ -177,7 +177,7 @@ a {
 }
 
 .footer {
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,7 +202,8 @@ a {
     width: 200px;
   }
   .footer {
-    height: 100vh;
+    height: 50vh;
+    padding: 0px;
     box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.5);
   }
 }
