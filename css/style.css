@@ -38,49 +38,8 @@ a {
   color: white;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-  box-shadow: inset 0px 100vh 0px rgba(255, 255, 255, 0.2);
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.slide_1 {
-  background: url('../img/banner_1.jpg') bottom / cover;
-  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
-}
-
-.slide_2 {
+.header {
   background: url('../img/banner_2.jpg') left bottom / cover;
-  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
-}
-
-.slide_3 {
-  background: url('../img/benner_3.jpg') center / cover;
   box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -224,13 +183,14 @@ a {
   justify-content: center;
   flex-direction: column;
   padding: 50px 0px;
-  background: url('../img/banner.jpg') center / cover;
-  box-shadow: inset 0px 100vh 0px rgba(255, 255, 255, 0.5);
+  background: url('../img/banner_3.jpg') center / cover;
+  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .footer_title {
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 450px) {
