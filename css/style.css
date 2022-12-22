@@ -201,6 +201,9 @@ a {
   .instance_2_hr {
     width: 200px;
   }
+  .footer {
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 990px) {
