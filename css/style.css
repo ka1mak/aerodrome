@@ -203,6 +203,7 @@ a {
   }
   .footer {
     height: 100vh;
+    box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.5);
   }
 }
 
