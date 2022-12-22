@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.header_banner {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-45%);
+  z-index: 2;
+  color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0px 100vh 0px rgba(255, 255, 255, 0.2);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide_1 {
+  background: url('../img/banner_1.jpg') bottom / cover;
+  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
+}
+
+.slide_2 {
+  background: url('../img/banner_2.jpg') left bottom / cover;
+  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
+}
+
+.slide_3 {
+  background: url('../img/benner_3.jpg') center / cover;
+  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
+}
+
+.header_title {
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.header_descrip {
+  font-size: 18px;
+}
+
+.hr {
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+.instance_1 {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+  font-weight: 500;
+  background-color: #fff;
+  line-height: 28px;
+}
+
+.instance_1 strong {
+  display: inline;
+}
+
+.instance_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  padding: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container.bg-dark {
+  background-color: #f0f0f0;
+}
+
+.instance_2_item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 50px;
+  text-align: center;
+}
+
+.instance_2_title {
+  font-size: 30px;
+}
+
+.instance_2_hr {
+  width: 300px;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0px;
+}
+
+.instance_2_descrip {
+  width: 70%;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.instance_2_item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.instance_3 {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 40px;
+}
+
+.instance_3_item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.instance_3_item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.instance_3_img {
+  width: 60%;
+  border-radius: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  overflow: hidden;
+}
+
+.instance_3_img img {
+  width: 100%;
+}
+
+.instance_3_title {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-weight: 700;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  top: -20px;
+}
+
+.instance_3_descrip {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  background: url('../img/banner.jpg') center / cover;
+  box-shadow: inset 0px 100vh 0px rgba(255, 255, 255, 0.5);
+}
+
+.footer_title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 450px) {
+  .header_title {
+    line-height: 100px;
+    font-size: 30px;
+  }
+  .instance_2_hr {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .instance_3_item {
+    width: 500px;
+  }
+}
