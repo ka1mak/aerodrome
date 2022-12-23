@@ -40,6 +40,11 @@ a {
   color: white;
 }
 
+.header {
+  background: url('../img/banner_2.jpg') left bottom / cover;
+  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.4);
+}
+
 .header_title {
   line-height: 100px;
   font-size: 50px;
@@ -201,6 +206,11 @@ a {
   }
   .instance_2_hr {
     width: 200px;
+  }
+  .footer {
+    height: 50vh;
+    padding: 0px;
+    box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.5);
   }
 }
 
