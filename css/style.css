@@ -204,6 +204,9 @@ a {
     line-height: 100px;
     font-size: 30px;
   }
+  .header {
+    background: url('../img/banner_2.jpg') center / cover;
+  }
   .instance_2_hr {
     width: 200px;
   }
