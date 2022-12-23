@@ -13,13 +13,6 @@
 <body>
 
   <div class="header">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide slide_1"></div>
-        <div class="swiper-slide slide_2"></div>
-        <div class="swiper-slide slide_3"></div>
-      </div>
-    </div>
     <div class="header_banner">
       <h1 class="header_title">LLC Buy-Service</h1>
       <div class="hr"></div>
@@ -78,30 +71,9 @@
 
   <div class="footer">
     <h1 class="footer_title">Contact us:</h1>
-    <a href="mailto: ivanov@gmail.com">ivanov@gmail.com</a>
+    <a href="mailto: ivanov@gmail.com" class="email_link">ivanov@gmail.com</a>
   </div>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      centeredSlides: true,
-      loop: true,
-      effect: "fade",
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
 </body>
 
 </html>
